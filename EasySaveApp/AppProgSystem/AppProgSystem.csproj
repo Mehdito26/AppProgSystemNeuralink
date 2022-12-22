@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Le-nouveau-film-Teenage-Mutant-Ninja-Turtles-se-deroule-chez.jpg" />
+    <None Remove="pngfind.com-ninja-turtles-png-266273.png" />
+    <None Remove="unknown.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Le-nouveau-film-Teenage-Mutant-Ninja-Turtles-se-deroule-chez.jpg" />
+    <Resource Include="pngfind.com-ninja-turtles-png-266273.png" />
+    <Resource Include="unknown.png" />
+  </ItemGroup>
+
+</Project>
